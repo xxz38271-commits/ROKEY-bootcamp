@@ -34,17 +34,21 @@
 
 ---
 
-###  Project 2. 터틀봇 기반 자율 주차 시스템
-터틀봇을 활용한 자율 주차 시스템 개발
+###  Project 2. Auto Valet Garage - TurtleBot4 기반 무인 자동 주차 시스템
+TurtleBot4 2대가 협동하여 입차부터 출차까지 자동화하는 무인 주차 관제 시스템
+
+**나의 역할**: AMR 자율 주행 제어, 이중주차 협동 제어 FSM 구현
 
 **핵심 구현 내용**
-- YOLO 기반 객체 인식으로 주차 공간 탐지
-- ROS2 기반 자율 주행 및 주차 경로 생성
-- 카메라 센서 데이터 처리 및 장애물 회피
+- Nav2 + AMCL 기반 TurtleBot4 자율 주행 미션 실행 시스템 구현
+- HSV 필터 + Contour 검출 기반 라인 트레이싱으로 주차 구역 정밀 정렬
+- SINGLE / DOUBLE 출차 판별 및 4-Phase FSM으로 2대 협동 제어
+- Dock / Undock 비동기 액션 처리 및 idle 시 자동 도킹
 
 **사용 기술**
-`ROS2` `Python` `YOLO` `TurtleBot` `OpenCV`
+`ROS2` `Python` `Nav2` `TurtleBot4` `YOLOv8` `OpenCV` `Supabase`
 
+**링크**: [GitHub](https://github.com/xxz38271-commits/AutoValetGarage)
 ---
 
 ###  Project 3. Smart Surgical Assistant - 지능형 수술 보조 협동로봇
