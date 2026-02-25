@@ -49,6 +49,7 @@ TurtleBot4 2대가 협동하여 입차부터 출차까지 자동화하는 무인
 `ROS2` `Python` `Nav2` `TurtleBot4` `YOLOv8` `OpenCV` `Supabase`
 
 **링크**: [GitHub](https://github.com/xxz38271-commits/AutoValetGarage)
+
 ---
 
 ###  Project 3. Smart Surgical Assistant - 지능형 수술 보조 협동로봇
@@ -79,24 +80,5 @@ TurtleBot4 2대가 협동하여 입차부터 출차까지 자동화하는 무인
 
 ---
 
-## 레포지토리 구조
-
-```
-rokey-bootcamp/
-├── burger_assembly/      # 버거 조립 로봇
-│   ├── src/
-│   ├── launch/
-│   └── README.md
-├── autonomous_vehicle/   # 자율주행 ERP42
-│   ├── src/
-│   ├── launch/
-│   └── README.md
-└── multi_robot/          # 멀티 로봇 협업
-    ├── src/
-    ├── launch/
-    └── README.md
-```
-
----
 
 
